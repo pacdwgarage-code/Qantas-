@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "you.",
+        name: "Taylor swift",
         // Activity type number (0 = Playing).
-        type: 3, 
+        type: 2, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#E0001B", 
+      secondary: "#FFFFFF", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -156,9 +156,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "dollar",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "dollar",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -359,13 +359,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "G'Day mate! Welcome to Qantas Virtual, we hope you enjoy!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1344624725866844160,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
